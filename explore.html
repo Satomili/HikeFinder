@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <title>HikeFinder</title>
+        <link rel="stylesheet" href="css/explore.css">
+    </head>
+    <body>
+        <header>
+            <img class="header--logo" src="./images/logo/header.png">
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="explore.html">EXPLORE</a></li>
+                    <li><a href="#" class="signup-button">SIGN UP</a></li>
+                    <li><a href="#" class="login-button">LOG IN</a></li>
+                </ul>
+            </nav>
+            <i id="nav-icon" class="fa-solid fa-bars nav-icon"></i>
+        </header>
+        <section class="hero">
+            <div class="hero-container">
+                <div class="hero--title-container">
+                    <h1 class="hero--title">Find Your Next <span>Adventure</span></h1>
+                    <h4 class="hero--sub-title">Your next hiking adventure awaits. Get on the trail with detailed maps and updates shared by hikers like you.</h4>
+                </div>
+            </div>
+        </section>
+        <main>
+            <h3 class="main--title">Explore Curated Trails Near You</h3>
+            <div class="main-container">
+                <div class="main-card-container">
+                    <div class="main--card">
+                        <img class="main--card-image" src="./images/photos/tryon-creek-state-area.png">
+                        <div class="card-place-and-info">
+                            <h2 class="card-place">Tryon Creek State Area</h2>
+                            <p class="card-info">Moderate <i class="fa-solid fa-star card-star"></i> 4.5 (428)</p>
+                        </div>
+                        <p class="card-disc">
+                            670-acre forested area along a ravine with well-maintained trails for hikers, horses & leashed dogs.
+                        </p>
+                    </div>
+                    <hr />
+                    <div class="main--card">
+                        <img class="main--card-image" src="./images/photos/marquam-nature-park.png">
+                        <div class="card-place-and-info">
+                            <h2 class="card-place">Marquam Nature Park</h2>
+                            <p class="card-info">Easy <i class="fa-solid fa-star card-star"></i> 4.3 (432)</p>
+                        </div>
+                        <p class="card-disc">
+                            193 acres of undeveloped land & over 5 miles of hiking trails with forested scenic views.
+                        </p>
+                    </div>
+                    <hr />
+                    <div class="main--card">
+                        <img class="main--card-image" src="./images/photos/wildwood-trail-area.png">
+                        <div class="card-place-and-info">
+                            <h2 class="card-place">Wildwood Trail Area</h2>
+                            <p class="card-info">Easy <i class="fa-solid fa-star card-star"></i> 4.0 (207)</p>
+                        </div>
+                        <p class="card-disc">
+                            The Wildwood Trail starts at the Vietnam Memorial adjacent to the Oregon Zoo and World Forestry Center and circles uphill.
+                        </p>
+                    </div>
+                </div>
+                <iframe class="main--map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d26595.736916002163!2d-122.70594992329781!3d45.51948924526169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1716824064136!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </main>
+        <section class="sub-section">
+            <div class="sub-section-container">
+                <div class="sub-section--card">
+                    <i class="fa-solid fa-bell sub-section--card-icon"></i>
+                    <p class="sub-section--card-title">Sign up for Notifications</p>
+                    <p class="sub-section--card-disc"><a class="link" href="#">Sign up</a> to get conditions alerts, information on pop-up events and interesting stories.</p>
+                </div>
+                <div class="sub-section--card">
+                    <i class="fas fa-map-marker-alt sub-section--card-icon"></i>
+                    <p class="sub-section--card-title">Get the HikeFinder App</p>
+                    <p class="sub-section--card-disc"><a class="link" href="#">Download the app</a> to get the most out of every minute outdoors with offline maps and more!</p>
+                </div>
+                <div class="sub-section--card">
+                    <i class="fas fa-share sub-section--card-icon"></i>
+                    <p class="sub-section--card-title">Share Trails</p>
+                    <p class="sub-section--card-disc"><a class="link" href="#">Share your hiking adventures</a> with the community and keep a record of your travels.</p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-container">
+                <nav class="footer--navbar">
+                    <ul>
+                        <li class="footer--nav-item"><a href="index.html">HOME</a></li>
+                        <li class="footer--nav-item"><a href="explore.html">EXPLORE</a></li>
+                        <li class="footer--nav-item"><a href="#">LOG IN</a></li>
+                        <li class="footer--nav-item"><a href="#">SIGN UP</a></li>
+                    </ul>
+                </nav>
+                <div class="footer--logo-and-copy">
+                    <img class="footer--logo" src="./images/logo/footer.png">
+                    <p class="footer--copy-right">&copy;Copyright 2024. HikeFinder</p>
+            
+                </div>
+            </div>
+        </footer>
+        <script src="index.js"></script>
+    </body>
+</html>
